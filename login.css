@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7BA6B4;
+    column-gap: 30px;
+}
+.container
+.form {
+    position: absolute;
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #fff;
+}
+.form.signup{
+    opacity: 0;
+    pointer-events: none;
+
+}
+.forms.show-signup .forms.show-signup{
+    opacity: 1;
+    pointer-events: auto;
+}
+.forms.show-signup .forms.show-login{
+    opacity: 0;
+    pointer-events: none;
+}
+header{
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+form{
+    margin-top: 30px;
+
+}
+
+form .field {
+    position: relative;
+    height: 45px;
+    width: 100%;
+    margin-top: 10px;
+}
+.field input,
+.field button {
+    height: 45px;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+.field input {
+    padding: 0 15px;
+    border: 1px solid#ACBAE6 ;
+}
+.bx-hide{
+    position: absolute;
+    top: 23px;
+    right: 5px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+
+}
+.field button {
+    background-color: #719CAA;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.field button:hover {
+    background-color: #5D8896;
+    cursor: pointer;
+}
+.form-link {
+    text-align: center;
+    margin-top: 10px;
+
+}
+.form-link span,
+.form-link span a {
+    font-size: 14px;
+    font-weight: 400;
+}
+.form a {
+    color: #0D3846;
+    text-decoration: none;
+}
+.form a:hover{
+    text-decoration: underline;
+}
+.input-field span {
+    position: absolute;
+    bottom: 12px;
+    right: 17px;
+    font-size: 14px;
+    color: red;
+}
+
